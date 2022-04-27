@@ -1,0 +1,48 @@
+:root { --mavi: #6bc1f1;
+--white: #fff; }
+header { background: url('../img/headerbg.jpg') center/cover}
+
+.bg-mavi { background-color: var(--mavi) }
+.text-mavi { color: var(--mavi) }
+.bg-white-80 { background-color: #ffffffcc}
+.text-white {color: var(--white) }
+.card4 .card {border: none;}
+.w320 {width: 320px;}
+.dcman {text-align: center;}
+.bgboz {background-color:  #f1f1f1}
+.bgfooter { background-color: #072035;}
+
+.medicine {
+    width: 59px;
+    height: 68px;
+}
+.personal {
+    width: 37px;
+    height: 68px;
+}
+.health {
+    width: 77px;
+    height: 67px;
+}
+.private {
+    width: 65px;
+    height: 71px;
+}
+.bio{
+    width: 49px;
+    height: 70px;
+}
+.aid {
+    width: 75px;
+    height: 66px;
+}
+
+.quotation {
+    width: 30px;
+    height: 27px;
+}
+@media only screen and (max-width: 768px) {
+    .part1 {
+        flex-direction: column-reverse;
+    }
+}
